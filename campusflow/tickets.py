@@ -1,4 +1,4 @@
-def calculate_priority(urgency, affected_users):
+def create_ticket(urgency, affected_users):
     if urgency == "high" and affected_users >= 10:
         return "critical"
     elif urgency == "high" or affected_users >= 10:
